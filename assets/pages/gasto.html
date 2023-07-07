@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fintech - Gasto</title>
+
+    <!-- font google krona one -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+    <!-- font google inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <!-- arquivo css do bootstrap local (pasta css do projeto fintech)-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- link css com o html -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+    
+    <header class="text-center my-5">
+        <h2 class="display-1 meu-titulo">GASTO</h2>
+    </header>
+
+    <main class="container">
+        <div class="row justify-content-center align-items-center my-5">
+            <div class="col-auto">
+                <form action="">
+                    <div class="my-5">
+                        <label for="valor" class="form-label meu-label">Valor</label>
+                        <input type="text" class="form-control meu-input" id="valor" placeholder="Valor">
+                    </div> 
+                    <div class="my-5">
+                        <label for="data" class="form-label meu-label">Data</label>
+                        <input type="date" class="form-control meu-input" id="data" >
+                    </div>
+                    <div class="my-5">
+                        <label for="descricao" class="form-label meu-label">Descrição</label>
+                        <textarea class="form-control meu-input" id="descricao" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="row justify-content-center align-items-center my-5">
+                        <a href="home.html" class="btn btn-primary btn-lg meu-botao" role="button">Gravar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- arquivo js do bootstrap de forma local (pasta js do projeto fintech) -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+}
+
+:root {
+    --tc-orange: #E58728;
+    --bg-blue: #1693A5;
+    --bg-brown: #9D7C5B;
+}
+
+.meu-titulo {
+    font-family: 'Krona One', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: var(--tc-orange)  
+}
+
+.meu-titulo,h2 {
+    font-family: 'Inter', sans-serif; 
+}
+
+.meu-link {
+    color: var(--tc-orange);
+    text-decoration: none;    
+}
+
+.meu-link:hover{
+    scale: 1.2;
+    color: var(--tc-orange);
+}
+
+.meu-label {
+    color: white;
+}
+
+.meu-input {
+    background-color: var(--bg-blue);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.meu-input::placeholder {
+    color: white;
+}
+
+.meu-input:focus {
+    background-color: var(--bg-blue);
+    color: white;
+}
+
+.meu-botao {
+    background-color: var(--bg-brown); 
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 250px; 
+}
+
+.meu-botao-home {
+    background-color: var(--bg-brown); 
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 90%; 
+
+}
+
+.meu-botao:hover, .meu-botao-home:hover {
+    background-color: var(--bg-brown);
+    color: white;
+    scale: 1.02;
+}
+
+.caixa {
+    width: 40%;    
+    color: white;  
+    border-radius: 15px;      
+    background-color: RGBA(157,124,91,var(--bg-bro,1));
+    display: flex;
+    flex-direction: column ; 
+}
+
+.box2 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
